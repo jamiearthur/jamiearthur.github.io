@@ -312,11 +312,15 @@ h2 {
 		display: block;
 		float: none;
 		height: 491px;
-		left: 5%;
+		left: 0%;
 		margin: 10% auto;
 		position: relative;
 		vertical-align: top;
 		width: 369px;
+	}
+
+	#slide4 .padding {
+		padding: 0;
 	}
 }
 
