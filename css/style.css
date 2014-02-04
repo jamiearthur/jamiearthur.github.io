@@ -186,11 +186,12 @@ h2 {
 }
 
 #slide4 .padding {
+	box-sizing: border-box;
 	display: inline-block;
 	float: left;
 	margin: 5% 0 5%;
 	max-width: 55%;
-	padding-left: 5%;
+	padding-left: 15%;
 }
 
 .photo {
@@ -345,7 +346,7 @@ h2 {
 /* Mobile */
 @media screen and (max-width: 480px) {
 
-	.slide {
+	.slide, #slide5 {
 		background-attachment: fixed;
 		position: relative;
 		padding: 50px 0;
@@ -371,6 +372,10 @@ h2 {
 		font-size: 30px;
 	}
 
+	#slide4 h1 {
+		margin-bottom: 50px;
+	}
+
 	#slide1 p, #slide2 p, #slide3 p, #slide4 p, #slide5 p {
 		font-size: 17px;
 	}
@@ -384,7 +389,7 @@ h2 {
 	}
 
 	ul {
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 	}
 
 	#slide4 h2 span {
