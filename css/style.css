@@ -341,11 +341,11 @@ h2 {
 /* Mobile */
 @media screen and (max-width: 480px) {
 
-	.slide{
+	.slide {
 		background-attachment: fixed;
-		width:100%;
 		position: relative;
-		padding:150px 0;
+		padding: 50px 0;
+		width:100%;
 	}
 
 	#slide1 img, #slide3 img {
@@ -361,6 +361,14 @@ h2 {
 		float: none;
 		padding: 0 10%;
 		width: 100%;
+	}
+
+	#slide1 h1, #slide2 h1, #slide3 h1, #slide4 h1, #slide5 h1 {
+		font-size: 30px;
+	}
+
+	#slide1 p, #slide2 p, #slide3 p, #slide4 p, #slide5 p {
+		font-size: 17px;
 	}
 
 	.photo {
