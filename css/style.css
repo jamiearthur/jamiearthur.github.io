@@ -1,0 +1,366 @@
+/* Global */
+
+body {
+	background-color:#ffffff;
+	color:#444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 17px;
+	font-weight: 100;
+	line-height: 24px;
+	padding-bottom: 10px;
+}
+
+li {
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 21px;
+	padding-bottom: 10px;
+}
+
+a {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	opacity: 0.8;
+	text-decoration: none;
+}
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 {
+	color:#444;
+	font-size: 60px;
+	font-weight: 100;
+	letter-spacing: -1px;
+	margin-bottom: 35px;
+}
+
+h2 {
+	color: #444;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* Navigation */
+
+.menu {
+	background-color: rgba(252, 252, 252, 0.5);
+	height: auto; 
+	padding: 2px 10px 4px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index:100;
+}
+
+.menu a {
+	color: #ddd;
+	font-size: 13px;
+}
+
+.menu a:hover {
+	color: #444;
+	font-size: 13px;
+}
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	height: auto;
+	padding: 140px 0;
+	position: relative;
+	width:100%;
+}
+
+
+
+/* Slide 1 */ 
+
+#slide1{
+	background-color:#fff;
+	color:#444;
+}
+
+#slide1 h1 {
+	color:#444;
+	font-size: 65px;
+}
+
+#slide1 img {
+	display: inline-block;
+	width: 450px;
+}
+
+#slide1 .padding {
+	display: inline-block;
+	float: right;
+	padding: 60px 20px;
+}
+
+/* Slide 2 */ 
+
+#slide2{
+	background-image:url('../images/ipad.jpg');
+	background-color:#000;
+	color:#ffffff;
+	height: 600px;
+}
+
+#slide2 h1 {
+	color:#ffffff;
+}
+
+#slide2 p {
+	color: #ffffff;
+	text-shadow: 0 1px 10px #462929;
+}
+
+
+
+
+/* Slide 3 */ 
+
+#slide3{
+	background-color:#fff;
+}
+
+#slide3 img {
+	display: inline-block;
+	float: right;
+	width: 500px;
+}
+
+#slide3 .padding {
+	display: inline-block;
+	padding: 60px 20px;
+	width: 400px;
+}
+
+/* Slide 4 */
+
+#slide4{
+	background-image:url('../images/concrete.jpg');
+	background-color:#000;
+	color:#ffffff;
+}
+
+#slide4 h1 {
+	color:#ffffff;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+#slide4 h2 {
+	color: #ffffff;
+}
+
+#slide4 .padding {
+	display: inline-block;
+	margin: 50px 0 150px;
+	width: 450px;
+}
+
+.photo {
+	background-position: 1px 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 491px;
+	margin: 0px 50px 150px 100px;
+	vertical-align: top;
+	width: 369px;
+}
+
+.photo:hover {
+	background-position: -369px 0;
+}
+
+#aaron {
+	background-image:url('../images/aaron.png');
+}
+
+#jamie {
+	background-image:url('../images/jamie.png');
+}
+
+#pete {
+	background-image:url('../images/pete.png');
+}
+
+#slide5 {
+	background-image:url('../images/lines.png');
+	padding: 300px 0;
+}
+
+#slide5 h1, #slide5 p {
+	text-align: center;
+}
+
+#slide5 p {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+#slide5 a {
+	color: #000;
+	font-weight: 500;
+	letter-spacing: 0px;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	#nav {
+		width:100%;
+		text-align:center;
+		margin:10px 0;
+	}
+
+	.navigation{
+		width: 100%;
+		float: center;
+		list-style: none;
+		margin: 0;
+		padding:0;
+	}
+
+	.navigation li{
+		float: left;
+		width:25%;
+		padding:0;
+	}
+
+	.slide{
+		background-attachment: fixed;
+		width:100%;
+		position: relative;
+		padding:150px 0;
+	}
+
+	#decorative {
+		display:none;
+	}
+
+	.content {
+		text-align:center;
+		width:100%;
+	}
+
+	#slide1 h1 {
+		line-height: 1em;
+	}
+	#slide1 h2 {
+		line-height: 1em;
+	}
+	#slide2 h1 {
+		line-height: 1em;
+	}
+	#slide2 h2 {
+		line-height: 1em;
+	}
+	#slide3 h1 {
+		line-height: 1em;
+	}
+	#slide3 h2 {
+		line-height: 1em;
+	}
+	#slide4 h1 {
+		line-height: 1em;
+	}
+	#slide4 h2 {
+		line-height: 1em;
+	}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	#nav {
+		width:100%;
+		margin:5px 0;
+	}
+
+	.navigation{
+		width: 100%;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding:0;
+	}
+
+	.navigation li{
+		float: left;
+		width:25%;
+	}
+
+	.slide{
+		background-attachment: fixed;
+		width:100%;
+		position: relative;
+		padding:150px 0;
+	}
+
+
+	#slide1 h1 {
+		line-height: 1em;
+	}
+	#slide1 h2 {
+		line-height: 1em;
+	}
+	#slide2 h1 {
+		line-height: 1em;
+	}
+	#slide2 h2 {
+		line-height: 1em;
+	}
+	#slide3 h1 {
+		line-height: 1em;
+	}
+	#slide3 h2 {
+		line-height: 1em;
+	}
+	#slide4 h1 {
+		line-height: 1em;
+	}
+	#slide4 h2 {
+		line-height: 1em;
+	}
+
+
+}
+
+
+
+
